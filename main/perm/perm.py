@@ -1,6 +1,11 @@
 '''
 Create a Sub Class of Employee for Permanent Employees
 '''
+# Import base class from Employee
+
+from employee.employee import Employee
+
+
 # Need to add Decoraters and Properties tags.  Must be clearner way to do it.
 class Permanent(Employee):
 

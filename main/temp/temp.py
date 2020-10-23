@@ -1,6 +1,9 @@
 '''
 Create a Sub Class of Employee for Temporary Employees
 '''
+# Import Employee Class as Base Class:
+from employee.employee import Employee
+
 # Need to add Decoraters and Properties tags.  Must be clearner way to do it.
 class Temporary(Employee):
 
